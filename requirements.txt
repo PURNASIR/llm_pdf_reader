@@ -1,0 +1,29 @@
+# --- Core LangChain packages ---
+langchain==0.3.4
+langchain-community==0.3.3
+langchain-text-splitters==0.3.1
+langchain-huggingface==0.1.1
+langchain-groq
+
+# --- Vector DB ---
+chromadb==0.5.11
+
+# --- NLP & Embeddings ---
+sentence-transformers==3.2.1
+nltk==3.9.1
+
+# --- Document / PDF Processing ---
+unstructured==0.16.11
+unstructured[pdf]==0.16.11
+pdfminer.six==20221105  # ✅ Add this line (compatible version)
+pypdf==5.1.0
+pdfplumber>=0.10.3
+python-magic-bin==0.4.14
+
+
+# --- Fix for Windows (libmagic issue) ---
+python-magic-bin==0.4.14   # ✅ Added for Windows only
+
+# --- Utilities ---
+tiktoken==0.8.0
+python-dotenv==1.0.1
